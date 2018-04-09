@@ -16,6 +16,6 @@
 
 <p>
 	In case of any query, please contact <br>
-	~ Aditya Saxena OR Shubham Tyagi <br>
-	~ adityasaxena602@gmail.com & tyagi201522@gmail.com
+	~ Bharti Katoch <br>
+	~ b.katoch9@gmail.com 
 </p>
