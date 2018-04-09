@@ -7,8 +7,8 @@
 
 	$link = mysqli_connect($server, $username, $pass, $db_name);
 
-		//if (!$link)
-			//die(mysqli_error($link));
+		if (!$link)
+			die(mysqli_error($link));
 
 
 ?>
