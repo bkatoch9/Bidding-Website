@@ -1,0 +1,164 @@
+.single-item-upload, .bulk-item-upload {
+    display : none;
+    padding: 20px;
+    box-shadow: 1px 1px 1px 1px #ddd;
+}
+
+.cover-div {
+    display : inline-flex;
+    flex-wrap : nowrap;
+}
+
+#right-border {
+    border-right : 1px solid;
+    border-color : #bbb;
+    max-height : 120px;
+    margin-top : 40px;
+    padding : 0px;
+}
+.thumbnail img {
+    min-height : 250px;
+    max-height : 250px;
+}
+
+.left-img {
+    padding-right : 60px;
+}
+
+.right-img {
+    padding-left: 60px;
+}
+
+.cover-div img {
+    max-width : 200px;
+    max-height : 200px;
+}
+
+.history-bid-panel {
+    display : inline-flex;
+    flex-wrap : nowrap;
+    padding: 7px;
+    border-radius: 4px;
+    background: #e8e8e847;
+}
+.img-section {
+    height : 110px;
+    width : 110px;
+    background : #ddd;
+    border-radius : 5px;
+    background-size : contain !important;
+    background-repeat : no-repeat !important;
+    background-position : center !important;
+}
+.info-section {
+    padding-left : 10px;
+}
+.item-name-section {
+    font-size : 1.4em;
+    font-weight : bolder;
+}
+.price-section{
+    display : inline-flex;
+    flex-wrap : nowrap;
+    font-weight : bolder;
+    width: -webkit-fill-available;
+    text-align : right;
+    min-width: 216px;
+    padding-top: 16px;
+}
+.your-bid, .max-bid {
+    width : 50%;
+    padding: 0;
+}
+.lg-text {
+    font-size: 1.9em;
+}
+
+#new_itms {
+    /* padding-top : 40px; */
+}
+
+.text- {
+    font-size : 1.3em;
+    font-weight : bolder;
+    padding-top : 10px;
+}
+
+.box {
+    text-align : left;
+}
+
+.img-hold a {
+    color : #555;
+}
+
+.img-hold {
+    height : 110px;
+    width : 120px;
+    text-align : center;
+    background : #ddd;
+    border-radius : 5px;
+    padding-top : 35px;
+    background-size : cover;
+    background-position : center;
+    background-repeat : no-repeat;
+}
+.notification {
+    background : #ddd;
+    padding : 15px;
+    font-weight : bolder;
+    margin-top :10px;
+}
+.notify-item-name{
+    font-size : .6em !important;
+    width : 300px;
+}
+
+.item-name-section a {
+    color : #333;
+}
+.item-name-section a:hover {
+    color : #111;
+}
+
+@media screen and (max-width : 450px) {
+    nav {
+        margin-bottom : 10px !important;
+    }
+
+    .right-img,.left-img {
+        padding : 0px;
+        margin : 0px;
+    }
+
+    .pad-mob {
+        margin-top : 10px;
+    }
+
+    .right-img {
+        padding-left : 15px;
+    }
+
+    .cover-div img {
+        max-width : 150px;
+        max-height : 150px;
+    }
+
+    #right-border {
+        border-right : 1px solid;
+        border-color : #bbb;
+        max-height : 90px;
+        margin-top : 30px;
+        padding : 0px;
+    }
+
+    .text- {
+        max-width : 150px;
+        font-size : 1.44em;
+        font-weight : 100;
+    }
+
+    .box {
+        text-align : center;
+    }
+}

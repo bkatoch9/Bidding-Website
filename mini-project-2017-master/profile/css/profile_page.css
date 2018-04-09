@@ -1,0 +1,77 @@
+.body-profile {
+    background: #FFF;
+ }
+
+    	.panel {
+    		text-align: center;
+    	}
+
+		.thumbnail {
+		    padding: 0 0 15px 0;
+		    border: none;
+		    border-radius: 0;
+		}
+
+		.thumbnail p {
+		    margin-top: 15px;
+		    color: #555;
+		    font-size: 25px;
+		}
+
+		.panel-footer {
+			margin-top: 10px;
+			margin-left: -15px; margin-right: -15px;
+			text-align: right;
+			background-color: #d9edf7;
+		}
+
+		.panel-footer .bid-money {
+			text-align: left;
+			font-size: 20px;
+			color: #000;
+			padding-bottom: -10px;
+			padding-top: 10px;
+			margin-bottom: -60px;
+		}
+
+		.btn {
+		    padding: 10px 20px ;
+		    margin-bottom: -30px;
+		    background-color: #56bd9c;
+		    color: #f1f1f1;
+		    font-size: 20px;
+		    border-radius: 5px;
+		    transition: .2s;
+		}
+
+		.btn:hover {
+			background-color : 	#87CEEB;
+		}
+
+		 .profile-form{
+			outline: none;
+			border: none;
+			width: 100%;
+			border-bottom: 1px solid #56bd9c;
+		}
+
+		.profile-form:focus{
+			outline: none;
+			border: none;
+			width: 100%;
+			border-bottom: 1px solid #1E90FF;
+		}
+
+		.heading {
+			font-size: 24px;
+		}
+
+		.nav-pills > li.active > a,
+		.nav-pills > li.active > a:focus,
+		.nav-pills > li.active > a:hover{
+			background-color: #56bd9c;
+		}
+
+		.nav-pills > li > a {
+			color: #888;
+		}
